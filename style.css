@@ -1,0 +1,38 @@
+.container{
+    position: relative;
+}
+
+
+.time{
+    text-align: center;
+    width: 66%;
+    position: absolute;
+    box-sizing: border-box;
+    background: #000;
+    left: 20%;
+    top: 374px;
+    color: #fff;
+    padding: 12px;
+    border-radius: 15px;
+}
+
+.randomNum {
+    position: absolute;
+    text-align: center;
+    left: 27%;
+    top: 50px;
+    color: #fff;
+    border: 1px solid #ddd;
+    padding: 25px 55px;
+    border-radius: 10px;
+}
+
+.action {
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.action:hover {
+    color: #ddd;
+    border: 1px solid #fff;
+}
